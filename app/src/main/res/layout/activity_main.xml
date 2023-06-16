@@ -6,4 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="411dp"
+        android:layout_height="41dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="142dp"
+        android:layout_height="58dp"
+        android:text="Take Photo"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="619dp"
+        android:onClick="callOnClick"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
